@@ -1,0 +1,31 @@
+.notations-container {
+    height: 150px;
+    width: 60vw;
+    max-width: 600px;
+    margin: 1vw;
+}
+
+.input-notations-container {
+    width: 60vw;
+    max-width: 600px;
+    margin: 1vw;
+}
+
+.input-notations-container .input-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.3vw 0;
+}
+
+.input-notations-container input {
+    width: 80%;
+    padding: 10px;
+}
+
+.input-notations-container .input-button {
+    padding: 10px;
+}
+
+.input-notations-container .error {
+    color: red;
+}
